@@ -1,0 +1,26 @@
+body {
+  padding: 0 15%;
+}
+
+table {
+  width: 100%;
+  border-top: 1px solid #444444;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #444444;
+  border-left: 1px solid #444444;
+  padding: 10px;
+  text-align: center;
+}
+
+th:first-child,
+td:first-child {
+  border-left: none;
+}
+
+button {
+  padding: 10px 30px;
+}
